@@ -4,14 +4,14 @@
   }
   
   body{
-    font-family: "Verdana", Sans-serif;
+    font-family: "Times New Roman", Times, serif;
     text-align:center;
     color:#D8C3AB;
     background-color:#E6F4F1;
   }
   
   header{
-    font-family: "Copperplate",Fantasy;
+    font-family: "Times New Roman", Times, serif;;
     padding: 40px;
     font-size:30px;
     letter-spacing:2px;
@@ -70,6 +70,6 @@
   }
   
   #homeIntro{
-    font-family: "Helvetica", Sans-serif;
+    font-family: "Times New Roman", Times, serif;;
     font-size:25px;
   }
