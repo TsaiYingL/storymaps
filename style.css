@@ -9,6 +9,12 @@
     color:#D8C3AB;
     background-color:#E6F4F1;
   }
+
+  header{
+    padding: 45px;
+    font-size:30px;
+    letter-spacing:2px;
+  }
   
   main{
     margin-left: 5%;
