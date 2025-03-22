@@ -77,11 +77,10 @@
     height:80%;
     width:80%;
     float: left;
-    margin: 0px 0px 15px 20px;
   }
 
   .nianticText {
-    float: left;
+    float: right;
   }
   
   #homeIntro{
