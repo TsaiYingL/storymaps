@@ -19,6 +19,12 @@
     align-items: center;
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+  }
+
   #titleImg {
     width: 100%;  /* Make the image fill the width */
     height: 60%; /* Make the image fill the height */
