@@ -73,14 +73,18 @@
     color:#3f4122;
   }
 
-  .nianticImg {
-    height:80%;
-    width:80%;
-    float: left;
+  .niantic {
+    display: flex; /* Enables side-by-side layout */
+    align-items: flex-start; /* Aligns the text and image at the top */
+    gap: 20px; /* Adds spacing between the image and text */
   }
 
-  .nianticText {
-    float: right;
+  .nianticImg {
+    width: 40%;
+    max-width: 300px;
+    float:left;
+    margin-right: 10px;
+    clear:both;
   }
   
   #homeIntro{
