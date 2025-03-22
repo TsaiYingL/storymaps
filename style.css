@@ -24,7 +24,7 @@
     list-style-type: none;
     overflow: hidden;
     padding: 6px;
-    background-color:#31352e;
+    background-color:#536f16;
   }
   
   li{
@@ -39,7 +39,7 @@
   }
   
   li a:hover{
-    background-color: #536f16;
+    background-color: #d4d6cf;
   }
   
   h1{
@@ -52,6 +52,7 @@
   
   p{
     font-size:20px;
+    padding:5px 0px;
     color:#3f4122;
   }
   
