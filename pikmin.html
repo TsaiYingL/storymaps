@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <link rel="stylesheet" href="/style.css"/>
   
   <head>
     <title>Pikmin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
   </head>
   
   <body>
@@ -20,21 +26,11 @@
     </nav>
 
     <main>
-      <h1>AUV</h1>
-      <video class = "portfolioImg" width="180" height="320" autoplay muted loop alt = "A video of an undedrwater vehicle adjusting its position in the water">
-        <source src="personal_web_img/AUV.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-      </video>
-      <p>In this project, I worked with my peers to use Python to enable the underwater vehicle shown in the video to move autonomously by incorporating ideas such as PID control and linear algebra.</p>
-
-      <h1>Room Tracker</h1>
-      <img class = "portfolioImg" id = p_img2 src = "personal_web_img/room_tracker.png" alt = "A snippet of the program, which contains the floor plan of the building, the floor, and a dropdown menu for the user to choose the floor.">
-      <p>The project is being made using JAVAFX. It is intended to allow people to see the status of the bathroom and elevators in the building. If they clicked on those utilities, the website will tell them the amount of people using those utilities or the people in line waiting for their turn.</p>
-
-      <h1>AP CSA practice problems</h1>
-      <img class = "portfolioImg" id = "p_img3" src = "personal_web_img/CSAcode_pic.png" alt = "A picture of a public class name CSAClass written in JAVA. The public class contains one instance variable, two constructors, and two methods.">
-      <p>This <a href="https://github.com/TsaiYingL/CSA_hw.git">repository</a> contains multiple folders of JAVA files, which were made to practice for the AP exam. The image on the left is from the folder name 9_1 when our class was leaning about Inheritance.</p>
+      <h1>Pikmin</h1>
+      
+      <div id="map"></div>
     </main>
   </body>
-  
+
+  <script src="main.js"></script>
 </html>

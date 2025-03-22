@@ -12,8 +12,7 @@
 
   header{
     padding: 45px;
-    font-size:30px;
-    letter-spacing:2px;
+    object-fit: cover;
   }
   
   main{
