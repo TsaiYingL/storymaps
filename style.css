@@ -36,10 +36,14 @@
     overflow: hidden;
     padding: 6px;
     background-color:#536f16;
+    display: flex;       /* Use flexbox */
+    justify-content: center;  /* Center navigation items */
+    align-items: center;  /* Align items vertically */
+
   }
   
   li{
-    text-align:center;
+    margin: 0 15px;
     display: inline;
   }
   
