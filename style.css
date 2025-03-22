@@ -6,8 +6,8 @@
   body{
     font-family: "Times New Roman", Times, serif;
     text-align:center;
-    color:#D8C3AB;
-    background-color:#E6F4F1;
+    color:#536f16;
+    background-color:#d4d6cf;
   }
 
   header{
@@ -24,7 +24,7 @@
     list-style-type: none;
     overflow: hidden;
     padding: 6px;
-    background-color:#9CADBC;
+    background-color:#31352e;
   }
   
   li{
@@ -35,27 +35,24 @@
     text-decoration: none;
     font-size: 20px;
     padding: 6px 10px;
-    color:#B7B4AE;
+    color:#013a20;
   }
   
   li a:hover{
-    background-color: #797673;
+    background-color: #536f16;
   }
   
   h1{
-    color: #393733;
+    color: #013a20;
+  }
+
+  h2{
+    color: #013a20;
   }
   
   p{
     font-size:20px;
-    color:#316860;
-  }
-  
-  .portfolioImg{
-    border-radius:5px;
-    margin: 10px;
-    border: 3px dotted #393733;
-    max-width: 30%;
+    color:#3f4122;
   }
   
   #homeIntro{
