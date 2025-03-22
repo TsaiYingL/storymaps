@@ -27,7 +27,7 @@
 
   #titleImg {
     width: 100%;  /* Make the image fill the width */
-    height: 60%; /* Make the image fill the height */
+    height: 100%; /* Make the image fill the height */
     object-fit: cover; /* Crop and scale the image to fit */
     display: block;
   }
