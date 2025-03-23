@@ -1,14 +1,5 @@
 //screenshots on home page
 var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
 
 function showDivs(n) {
   var i;
@@ -25,6 +16,16 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " w3-white";
 }
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+  
+function currentDiv(n) {
+    showDivs(slideIndex = n);
+}
+
+showDivs(slideIndex);
 
 //map on pikmin page
 var map = L.map('map').setView([40.9153, -73.1226], 13);
