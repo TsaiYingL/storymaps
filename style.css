@@ -79,8 +79,8 @@
   }
 
   .screens {
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 20%;
+    max-height: 20%;
     float:left;
     border-radius:5px;
     margin: 10px;
@@ -98,8 +98,8 @@
   }
 
   #nianticImg {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 60%;
+    max-height: 60%;
     float:left;
     margin-right: 10px;
     clear:both;
