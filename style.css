@@ -78,14 +78,22 @@
     color:#3f4122;
   }
 
-  .niantic {
+  #screenshots {
+    float:left;
+    border-radius:5px;
+    margin: 10px;
+    border: 3px dotted #dad8d5;
+    max-width: 30%;
+  }
+
+  #niantic {
     display: flex; /* Enables side-by-side layout */
     align-items: flex-start; /* Aligns the text and image at the top */
     gap: 20px; /* Adds spacing between the image and text */
   }
 
-  .nianticImg {
-    width: 40%;
+  #nianticImg {
+    width: 70%;
     max-width: 300px;
     float:left;
     margin-right: 10px;
