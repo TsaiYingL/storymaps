@@ -78,13 +78,16 @@
     color:#3f4122;
   }
 
-  #screenshots {
+  .slides {
     float:left;
     border-radius:5px;
     margin: 10px;
     border: 3px dotted #dad8d5;
     max-width: 30%;
   }
+
+  .w3-left, .w3-right, .w3-badge {cursor:pointer}
+  .w3-badge {height:13px;width:13px;padding:0}
 
   #niantic {
     display: flex; /* Enables side-by-side layout */
