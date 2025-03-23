@@ -9,7 +9,7 @@ var stepsIn = ["4000~6999", "7000~9999", "10,000~12,999", "13,000~15,999", "16,0
 var stepsCount = [4, 8, 10, 5, 1];
 var barColors = ["#536f16","#536f16","#536f16","#536f16","#536f16"];
 
-new Chart("myChart", {
+new Chart("steps", {
   type: "bar",
   data: {
     labels: stepsIn,
@@ -26,3 +26,24 @@ new Chart("myChart", {
     }
   }
 });
+
+var moodType = ["Sad", "Neutral", "Happy"];
+var moodCount = [2, 12, 14];
+
+new Chart("mood", {
+    type: "bar",
+    data: {
+      labels: moodType,
+      datasets: [{
+        backgroundColor: barColors,
+        data: moodCount
+      }]
+    },
+    options: {
+      legend: {display: false},
+      title: {
+        display: true,
+        text: "Mood"
+      }
+    }
+  });
