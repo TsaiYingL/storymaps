@@ -78,6 +78,10 @@
     color:#3f4122;
   }
 
+  #introText {
+    font-size:30px;
+  }
+
   .screens {
     display: none;
     max-width: 10%;
