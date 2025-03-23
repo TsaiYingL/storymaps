@@ -36,18 +36,14 @@ window.onload = function () {
     });
 
     showDivs(slideIndex);
-};
 
-//map on pikmin page
-window.onload = function () {
+    //map on pikmin page
     var map = L.map('map').setView([40.9153, -73.1226], 13);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
-};
 
-window.onload = function () {
     // Steps Chart
     var stepsIn = ["4000~6999", "7000~9999", "10,000~12,999", "13,000~15,999", "16,000~18,999"];
     var stepsCount = [4, 8, 10, 5, 1];
