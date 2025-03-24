@@ -87,15 +87,14 @@
 
   .flex-container {
     display: flex;
-  }
+    align-items: flex-start; /* Align items to the top */
+}
 
-  .flex-container > div {
-    margin: 0 px;
-    padding: 50%;
-  }
+.flex-container > div {
+  margin: 10px; /* Add some margin for spacing */
+}
 
   .screens {
-    float:right;
     max-width: 10%;
     max-height: 10%;
     border-radius:5px;
