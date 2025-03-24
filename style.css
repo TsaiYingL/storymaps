@@ -87,7 +87,6 @@
   }
 
   .screens {
-    display: initial;
     max-width: 10%;
     max-height: 10%;
     border-radius:5px;
