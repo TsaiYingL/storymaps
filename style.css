@@ -89,17 +89,20 @@
       align-items: flex-start;
   }
 
-  #text-container {
+  .text-container {
     width: 70%;
     margin-right: 10px;
   }
 
-  #slideshow-container {
-      width: 30%;
+  .slideshow-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; /* Ensures equal spacing */
+    width: 30%;
   }
 
   .screens {
-      max-width: 50%;
+      max-width: 100%;
       border-radius:5px;
       margin: 10px;
       border: 3px #dad8d5;
