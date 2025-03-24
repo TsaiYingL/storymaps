@@ -79,6 +79,7 @@
   }
 
   #introText {
+    float: left;
     font-size:30px;
     padding:5px 0px;
     color:#3f4122;
