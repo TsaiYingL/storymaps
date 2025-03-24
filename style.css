@@ -90,14 +90,12 @@
   }
 
   .text-container {
-    width: 70%;
+    width: 60%;
     margin-right: 10px;
   }
 
   .slideshow-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between; /* Ensures equal spacing */
+    width: 40%;
     width: 30%;
   }
 
