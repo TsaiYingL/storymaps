@@ -79,28 +79,21 @@
   }
 
   #introText {
-    float: left;
-    font-size:30px;
+    font-size:25px;
     padding:5px 0px;
     color:#3f4122;
   }
 
   .flex-container {
-    display: flex;
-    align-items: flex-start; /* Align items to the top */
-}
-
-.flex-container > div {
-  margin: 10px; /* Add some margin for spacing */
-}
+      display: flex;
+      align-items: flex-start;
+  }
 
   .screens {
-    max-width: 25%;
-    max-height: 25%;
-    border-radius:5px;
-    margin: 10px;
-    border: 3px #dad8d5;
-    max-width: 30%;
+      max-width: 100%;
+      border-radius:5px;
+      margin: 10px;
+      border: 3px #dad8d5;
   }
 
   .w3-left, .w3-right, .w3-badge {cursor:pointer}
