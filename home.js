@@ -30,12 +30,12 @@ setTimeout(function() {
     showDivs(slideIndex);
 }, 0);
 
-document.querySelector(".w3-left").onclick = function () { plusDivs(-1); };
-document.querySelector(".w3-right").onclick = function () { plusDivs(1); };
-
-var dots = document.querySelectorAll(".demo");
-dots.forEach((dot, index) => {
-    dot.onclick = function () { currentDiv(index + 1); };
+document.addEventListener('DOMContentLoaded', function() {
+    showDivs(slideIndex); // Initial showDivs call
+    document.querySelector(".w3-left").onclick = function () { plusDivs(-1); };
+    document.querySelector(".w3-right").onclick = function () { plusDivs(1); };
+    var dots = document.querySelectorAll(".demo");
+    dots.forEach((dot, index) => {
+        dot.onclick = function () { currentDiv(index + 1); };
+    });
 });
-
-showDivs(slideIndex);

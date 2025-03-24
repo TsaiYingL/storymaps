@@ -82,11 +82,8 @@
     font-size:30px;
   }
 
-  #slides {
-    float:right;
-  }
-
   .screens {
+    float:right;
     max-width: 10%;
     max-height: 10%;
     border-radius:5px;
