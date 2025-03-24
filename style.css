@@ -10,7 +10,7 @@
   }
 
   header {
-    padding: 0px;  /* Remove extra padding */
+    padding: 0px;  /* Remove extra padding */ 
     width: 100%;
     height: 250px; /* Adjust height as needed */
     overflow: hidden; /* Ensures the image doesn't overflow */
@@ -83,6 +83,15 @@
     font-size:30px;
     padding:5px 0px;
     color:#3f4122;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container > div {
+    margin: 0 px;
+    padding: 50%;
   }
 
   .screens {
