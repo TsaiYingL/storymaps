@@ -1,7 +1,6 @@
 //file for the slideshow on the home page
 
 var slideIndex = 1;
-showDivs(slideIndex);
 
 function showDivs(n) {
     var i;
@@ -26,6 +25,10 @@ function plusDivs(n) {
 function currentDiv(n) {
     showDivs(slideIndex = n);
 }
+
+setTimeout(function() {
+    showDivs(slideIndex);
+}, 0);
 
 document.querySelector(".w3-left").onclick = function () { plusDivs(-1); };
 document.querySelector(".w3-right").onclick = function () { plusDivs(1); };
