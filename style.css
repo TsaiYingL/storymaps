@@ -116,7 +116,7 @@
     cursor: pointer;
 
     display: inline-block; /* Ensures they sit next to each other */
-    padding: 50px; /* Add spacing for better clickability */
+    padding: 10px; /* Add spacing for better clickability */
   }
 
   .w3-left {
