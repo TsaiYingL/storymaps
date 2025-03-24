@@ -107,13 +107,41 @@
       margin-left: auto;
       margin-right: auto;
 
-      border-width: 3px;
-      border-style: dotted;
-      border-color: #dad8d5;
+      border: 3px dotted #dad8d5;
   }
 
-  .w3-left, .w3-right, .w3-badge {cursor:pointer}
-  .w3-badge {height:13px;width:13px;padding:0}
+  .w3-left, .w3-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px; /* Increase arrow size */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Make arrows visible */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .w3-left {
+    left: 5px;
+  }
+
+  .w3-right {
+      right: 5px;
+  }
+  
+  .w3-badge {
+    height: 15px;
+    width: 15px;
+    background-color: #ddd; /* Make them visible */
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%; /* Make them circular */
+  }
+
+  .w3-badge:hover, .w3-badge.active {
+      background-color: #536f16; /* Highlight active dot */
+  }
 
   #niantic {
     display: flex; /* Enables side-by-side layout */
