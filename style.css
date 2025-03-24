@@ -112,10 +112,7 @@
 
   .w3-left, .w3-right {
     font-size: 24px; /* Increase arrow size */
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Make arrows visible */
-    padding: 10px;
-    border-radius: 5px;
+    color: #013a20;
     cursor: pointer;
   }
 
@@ -133,8 +130,6 @@
     background-color: #ddd; /* Make them visible */
     cursor: pointer;
     border-radius: 50%; /* Make them circular */
-
-    justify-content: center;
   }
 
   .w3-badge:hover, .w3-badge.active {
