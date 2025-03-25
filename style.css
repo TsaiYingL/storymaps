@@ -78,6 +78,7 @@
     color:#3f4122;
   }
 
+  /* for home page */
   #introText {
     font-size:25px;
     padding:5px 0px;
@@ -140,6 +141,25 @@
       background-color: #536f16; /* Highlight active dot */
   }
 
+  /* for pikmin page */
+  .plot-container {
+    width: 50%;
+    align-items: center;
+  }
+
+  .ptext-container {
+    width: 50%;
+    align-items: center;
+  }
+
+  #map{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    border: 2px solid #ccc;
+  }
+
+  /* for niantic page */
   #niantic {
     display: flex; /* Enables side-by-side layout */
     align-items: flex-start; /* Aligns the text and image at the top */
@@ -157,11 +177,4 @@
   #homeIntro{
     font-family: "Times New Roman", Times, serif;;
     font-size:25px;
-  }
-
-  #map{
-    height: 400px;
-    width: 80%;
-    margin: auto;
-    border: 2px solid #ccc;
   }

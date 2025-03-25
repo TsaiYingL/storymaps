@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var eastDining = L.marker([40.916868, -73.120663]).addTo(map);
 
     //add popups to the markers
-    oneill.bindPopup("<b>Oneill Hall</b><br>My friend's dorm. I often go there after class</b>").openPopup();
+    oneill.bindPopup("<b>O'Neill Hall</b><br>My friend's dorm. I often go there after class</b>").openPopup();
     keller.bindPopup("<b>Keller Hall</b><br>My dorm</b>");
     humanities.bindPopup("<b>Humanities Building</b><br>Where I have my WRT377 class</b>");
     oldCompSci.bindPopup("<b>Old Computer Science Building</b><br>Where I have my CSE160 class</b>");
