@@ -142,12 +142,12 @@
   }
 
   /* for pikmin page */
-  .plot-container {
+  .splot-container {
     width: 50%;
     align-items: center;
   }
 
-  .ptext-container {
+  .mplot-container {
     width: 50%;
     align-items: center;
   }
