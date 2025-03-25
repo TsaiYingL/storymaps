@@ -156,7 +156,11 @@
     height: 400px;
     width: 80%;
     margin: auto;
-    border: 2px solid #ccc;
+    border: 10px;
+  }
+
+  #mtext{
+    text-align: center;
   }
 
   /* for niantic page */
