@@ -182,3 +182,9 @@
     font-family: "Times New Roman", Times, serif;;
     font-size:25px;
   }
+
+  /*for resources page*/
+  .mlaCite {
+    font-size: 30px;
+    padding: 5px 0px;
+  }
